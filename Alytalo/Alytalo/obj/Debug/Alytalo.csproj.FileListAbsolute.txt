@@ -1,0 +1,15 @@
+C:\Users\arinp\source\repos\Alytalo\Alytalo\bin\Debug\Alytalo.exe.config
+C:\Users\arinp\source\repos\Alytalo\Alytalo\bin\Debug\Alytalo.exe
+C:\Users\arinp\source\repos\Alytalo\Alytalo\bin\Debug\Alytalo.pdb
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.csproj.AssemblyReference.cache
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\MainWindow.g.cs
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\App.g.cs
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo_MarkupCompile.cache
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo_MarkupCompile.lref
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\MainWindow.baml
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.g.resources
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.Properties.Resources.resources
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.csproj.GenerateResource.cache
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.csproj.CoreCompileInputs.cache
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.exe
+C:\Users\arinp\source\repos\Alytalo\Alytalo\obj\Debug\Alytalo.pdb

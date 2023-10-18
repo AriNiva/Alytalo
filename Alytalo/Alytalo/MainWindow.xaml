@@ -1,0 +1,34 @@
+﻿<Window x:Class="Alytalo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alytalo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Slider x:Name="slLivingRoom" Minimum="0" Maximum="100" TickPlacement="BottomRight" TickFrequency="25" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="36,44,0,0" VerticalAlignment="Top" Width="183" ValueChanged="slLivingRoom_ValueChanged"/>
+        <TextBox x:Name="txtLivingRoomLights" Text="{Binding Value, ElementName=slLivingRoom, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="233,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Height="21"/>
+        <Label x:Name="lblLivingRoom" Content="Olohuoneen valaistus" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" Width="183"/>
+        <Label x:Name="lblKitchen" Content="Keittiön valaistus" HorizontalAlignment="Left" Margin="36,107,0,0" VerticalAlignment="Top" Width="183"/>
+        <Slider x:Name="slKitchen" Minimum="0" Maximum="100" TickPlacement="BottomRight" TickFrequency="25" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="36,138,0,0" VerticalAlignment="Top" Width="183" ValueChanged="slKitchen_ValueChanged"/>
+        <TextBox x:Name="txtKitchenLights" Text="{Binding Value, ElementName=slKitchen, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="233,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <Button x:Name="btnLight1" Content="" HorizontalAlignment="Left" Margin="307,39,0,0" VerticalAlignment="Top" Height="24" Width="33"/>
+        <Button x:Name="btnLight2" Content="" HorizontalAlignment="Left" Margin="307,138,0,0" VerticalAlignment="Top" Height="24" Width="33"/>
+        <Label x:Name="lblCurrentTemp" Content="Lämpötila" HorizontalAlignment="Left" Margin="36,220,0,0" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="txtCurrentTemp" HorizontalAlignment="Left" Margin="233,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" Cursor=""/>
+        <Label x:Name="lblNewTemp" Content="Uusi lämpötila" HorizontalAlignment="Left" Margin="36,239,0,0" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="txtNewTemp" HorizontalAlignment="Left" Margin="233,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Button x:Name="btnSetTemp" Content="Aseta uusi lämpötila" HorizontalAlignment="Left" Margin="36,270,0,0" VerticalAlignment="Top" Width="134" Height="42" Click="btnSetTemp_Click"/>
+        <TextBox x:Name="txtSaunaStatus" HorizontalAlignment="Left" Margin="435,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264"/>
+        <Button x:Name="btnSaunaOn" Content="Sauna päälle" HorizontalAlignment="Left" Height="20" Margin="435,65,0,0" VerticalAlignment="Top" Width="132" Click="btnSaunaOn_Click"/>
+        <Button x:Name="btnSaunaOff" Content="Sauna pois päältä" HorizontalAlignment="Left" Margin="572,65,0,0" VerticalAlignment="Top" Width="127" Click="btnSaunaOff_Click"/>
+        <Button x:Name="btnSaunaIndicator" Content="" HorizontalAlignment="Left" Height="43" Margin="720,42,0,0" VerticalAlignment="Top" Width="61"/>
+        <TextBox x:Name="txtSaunaTemp" HorizontalAlignment="Left" Height="26" Margin="435,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+        <TextBox x:Name="txtSaunaMax" HorizontalAlignment="Left" Height="26" Margin="588,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblSaunaTemp" Content="Saunan lämpötila" HorizontalAlignment="Left" Margin="435,110,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lblMaxTemp" Content="Sauna Max" HorizontalAlignment="Left" Margin="588,110,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button x:Name="btnSpeech" Content="Kerro talon tila" HorizontalAlignment="Left" Margin="36,338,0,0" VerticalAlignment="Top" Width="134" Click="btnSpeech_Click"/>
+
+    </Grid>
+</Window>
